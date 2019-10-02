@@ -1,0 +1,53 @@
+.menu-principal{
+    display: flex;
+}
+
+.menus-nav{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.p-marvin{
+    margin-left: 0.5%;
+    margin-top: 0.25%;
+    width: 33%;
+}
+
+.p-robocup{
+    margin-top: 0.25%;
+    width: 20%;
+    margin-left: 12.5%;
+}
+
+.menu-navegacao{
+    width: 33%;
+    float:right;
+}
+@media (max-width: 768px){
+    .menu-navegacao{
+        display: none;
+    }
+}
+
+.video-robocup{
+    margin-top: 1.25%;
+    text-align: center;
+}
+
+.sobre{
+    margin-top: 3.5%;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-sobre-marvin{
+    font-size: 22.5px;
+    text-align: justify;
+}
+
+.video-robo{
+    margin-top: 3.5%;
+    text-align: center;
+}
