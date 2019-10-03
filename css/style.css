@@ -30,16 +30,21 @@
 }
 
 .video-robocup{
-    margin-top: 1.25%;
-    text-align: center;
+    width: 100%;
+    height: 70%;
 }
 
 .sobre{
     margin-top: 3.5%;
     text-align: center;
-    width: 50%;
+    width: 65%;
+    height: 1080px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.h2-sobre-marvin{
+    margin-top:5%;
 }
 
 .p-sobre-marvin{
@@ -50,4 +55,26 @@
 .video-robo{
     margin-top: 3.5%;
     text-align: center;
+}
+
+.info-robocup{
+    width: 65%;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+.p-info{
+    font-size: 22.5px;
+    text-align: justify;
+}
+
+.div-info{
+    margin: auto 0 0 1.5%;
+
+}
+
+.projeto{
+    width: 65%;
+    margin: 4% auto 0 auto;
+    display: flex;
 }
