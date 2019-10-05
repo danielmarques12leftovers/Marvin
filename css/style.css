@@ -139,4 +139,11 @@ figure > img{
         height: 200px;
     }
 
+    .info-robocup{
+        width: 95%;
+        height: 400px;
+        margin: 0 auto 0 auto;
+        display: inline-block;
+    }
+
 }
