@@ -22,25 +22,25 @@
 
         <ul class="nav justify-content-end menu-navegacao">
             <li class="nav-item">
-                <a class="nav-link" href="#">Robocup</a>
+                <a class="nav-link" href="#video-robocup">Robocup</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Galeria</a>
+                <a class="nav-link" href="#video-marvin">Galeria</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projeto</a>
+                <a class="nav-link" href="#projeto">Projeto</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Equipe</a>
+                <a class="nav-link" href="#equipe">Equipe</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#contato">Contato</a>
             </li>
         </ul>
     </div>
 
     <section class="sobre">
-        <iframe class="video-robocup" src="https://www.youtube.com/embed/UKcEUDlnX9Q?mute=1">
+        <iframe id="video-robocup" class="video-robocup" src="https://www.youtube.com/embed/UKcEUDlnX9Q?mute=1">
         </iframe>
         <h2 class="h2-sobre-marvin h2-font-weight">Sobre o Marvin</h2>
         <p class="p-sobre-marvin">O Marvin é um robô composto de madeira fina, com 3 rodas, sendo duas motorizadas e
@@ -97,21 +97,28 @@
 
     <div class="video-robo">
         <h2 class="h2-font-weight">Veja o Marvin em ação</h2>
-        <iframe class="iframe-video-robo" src="https://www.youtube.com/embed/JusvQ9-05Bs?mute=1">
+        <iframe id="video-marvin" class="iframe-video-robo" src="https://www.youtube.com/embed/JusvQ9-05Bs?mute=1">
         </iframe>
     </div>
 
-    <section class="projeto">
-        <img src="images/robocup-1.jpg" width="350" height="350" alt="" srcset="">
+    <section id="projeto" class="projeto">
+        <figure>
+            <img src="images/robo-em-construcao.jpg" width="350" height="350" alt="" srcset="">
+            <figcaption>Marvin em construção</figcaption>
+        </figure>
 
         <div class="div-info">
             <h2 class="h2-font-weight">O Projeto</h2>
-            <p class="p-info"> Confessamos que no inicio foi assustador, mas ao passar o tempo e apanharmos
-                bastante, notamos que valeu a pena, agora sempre tentamos aprimorar o Marvin um pouquinho mais. </p>
+            <p class="p-info">No início a ideia de construir um robô foi assustadora, porém, com o passar do tempo e
+                após muitas dificuldades no caminho, aos poucos fomos conseguindo resultados. Notamos que todo o esforço
+                valeu muito a pena e que todo esse processo foi um grande aprendizado para todos da equipe. Agradecemos
+                ao professor Belizário e à FIAP por essa oportunidade, agradecemos também os monitores e professor do
+                lab por toda
+                ajuda prestada. </p>
         </div>
     </section>
 
-    <div class="div-equipe">
+    <div id="equipe" class="div-equipe">
         <h2 class="h2-font-weight">Nossa Equipe</h2>
         <section class="section-equipe">
             <div class="membro-da-equipe">
@@ -137,7 +144,7 @@
         </section>
     </div>
 
-    <section class="contato">
+    <section id="contato" class="contato">
         <div class="card">
             <div class="card-body">
                 <form>
