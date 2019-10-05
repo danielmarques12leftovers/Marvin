@@ -23,11 +23,6 @@
     width: 33%;
     float:right;
 }
-@media (max-width: 768px){
-    .menu-navegacao{
-        display: none;
-    }
-}
 
 .video-robocup{
     width: 100%;
@@ -132,4 +127,16 @@ figure > img{
 .contato{
     width: 25%;
     margin: 7.5% auto 7% auto;
+}
+
+@media (max-width: 768px){
+    .menu-navegacao{
+        display: none;
+    }
+
+    .video-robocup{
+        width: 300px;
+        height: 200px;
+    }
+
 }
