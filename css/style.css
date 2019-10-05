@@ -88,25 +88,27 @@
 
 .div-equipe{
     text-align: center;
-    margin:0 auto 0 auto;
+    margin:7.5% auto 0 auto;
     width: 65%;
 }
 
 .section-equipe{
-
     margin-top: 5%;
     display: flex;
 }
 
 .membro-da-equipe{
-
     margin:0 auto 0 auto;
 
 }
 
 .membro-da-equipe > img{
-
     border-radius: 50%;
     width: 200px;
     height: 200px;
+}
+
+.contato{
+    width: 20%;
+    margin: 7.5% auto 7% auto;
 }

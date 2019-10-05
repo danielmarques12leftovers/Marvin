@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Robocup FIAP - Marvin</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -41,7 +45,8 @@
         <h2 class="h2-sobre-marvin">Sobre o Marvin</h2>
         <p class="p-sobre-marvin">O Marvin é um robô composto de madeira fina, com 3 rodas, sendo duas motorizadas e
             uma direcional, com duas armas no qual possuem formato retangular e
-            agulhas na ponta da forma.</p>
+            agulhas na ponta da forma. A inspiração para o nome veio do Marvin the Paranoid Android, um personagem da
+            série O Guia do Mochileiro das Galáxias.</p>
     </section>
 
     <section class="info-robocup">
@@ -94,21 +99,72 @@
                 <p class="nome-membro">Victor Arnone Francesco</p>
             </div>
             <div class="membro-da-equipe">
-                <img src="images/victor-rj.jpg" alt="">
+                <img src="images/victor-rj.jpeg" alt="">
                 <p class="nome-membro">Victor de Lima Gomes Ribeiro</p>
             </div>
         </section>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <section class="contato">
+        <!-- Card -->
+        <div class="card">
+
+            <!-- Card body -->
+            <div class="card-body">
+
+                <!-- Material form register -->
+                <form>
+                    <p class="h4 text-center py-4">Contato</p>
+
+                    <!-- Material input text -->
+                    <div class="md-form">
+                        <i class="fa fa-user prefix dark-text"></i>
+                        <input type="text" id="materialFormCardNameEx" class="form-control">
+                        <label for="materialFormCardNameEx" class="font-weight-light">Nome</label>
+                    </div>
+
+                    <!-- Material input email -->
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="materialFormEmailModalEx1" class="form-control form-control-sm">
+                        <label for="materialFormEmailModalEx1">Email</label>
+                    </div>
+
+                    <!-- Material input subject -->
+                    <div class="md-form form-sm">
+                        <i class="fa fa-tag prefix"></i>
+                        <input type="text" id="materialFormSubjectModalEx1" class="form-control form-control-sm">
+                        <label for="materialFormSubjectModalEx1">Assunto</label>
+                    </div>
+
+                    <!-- Default textarea message -->
+                    <label for="defaultFormMessageModalEx">Sua mensagem</label>
+                    <textarea type="text" id="defaultFormMessageModalEx" class="md-textarea form-control"></textarea>
+
+                    <div class="text-center py-4 mt-3">
+                        <button class="btn btn-dark" type="submit">Enviar</button>
+                    </div>
+                </form>
+                <!-- Material form register -->
+
+            </div>
+            <!-- Card body -->
+
+        </div>
+        <!-- Card -->
+    </section>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
 </body>
 
 </html>
